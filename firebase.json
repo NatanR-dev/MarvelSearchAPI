@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "marvelsearch",
+      "public": "dist/marvelsearch",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+mat-grid-list {
+  margin: 40px;
+}
+
+mat-grid-tile {
+  border-radius: 10px;
+  margin: 20px;
+  min-width: 300px;
+  max-width: 300px;
+  box-shadow: 1px 1px 30px #00212d;
+  filter: brightness(1) saturate(90%);
+  transition: transform 0.6s, box-shadow 0.6s, filter 0.4s;
+}
+
+mat-grid-tile.mat-grid-tile.ng-star-inserted:hover {
+    box-shadow: 1px 1px 40px #cc0505;
+  transform: scale(1.02);
+  filter: brightness(1.2) saturate(110%);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+mat-form-field {
+  margin: 55px 25px 25px 536px;
+  width: 200px;
+}
+
+mat-drawer {
+  position: fixed;
+  width: 320px;
+}
+
+.search {
+  background-image: url('/assets/search-bar.png');
+  background-repeat: no-repeat;
+  background-size: 320px 57px;
+  background-position-x: 525px;
+  background-position-y: 45px;
+}
+
+.mat-drawer-container {
+  background: transparent;
+}

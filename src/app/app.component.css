@@ -1,0 +1,23 @@
+img {
+  width: 24px;
+  height: 24px;
+}
+
+.fab {
+  font-size: 1.8em;
+}
+
+.content {
+  background-image: url('src/assets/background.jpg');
+  overflow: auto;
+}
+.mat-toolbar.mat-primary {
+  background: #EC2023;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}

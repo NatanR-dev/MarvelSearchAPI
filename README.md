@@ -44,5 +44,5 @@ Execute o comando `ng serve` para startar a aplicação. Você será redireciona
 rxjs, nodejs, express, material design
 
 
-Desafio feito para o processo seletivo da CRMALL
-Tempo de entrega: 20/11 até até o dia 23/11, às 17h00.
+Desafio feito para o processo seletivo da <b>CRMALL</b><br />
+Tempo de entrega: <b>20/11 até até o dia 23/11, às 17h00.</b>

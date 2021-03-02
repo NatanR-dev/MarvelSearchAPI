@@ -1,6 +1,6 @@
 # MarvelSearchAPI
 
-![Simple Google Chart](https://i.ibb.co/RTvhmgX/chrome-z-RL7-OFb-FQi.png)
+![MarvelSearchAPI](https://i.ibb.co/RTvhmgX/chrome-z-RL7-OFb-FQi.png)
 
 Aplicação em Angular que interage com a [API da Marvel Comics] (http://developer.marvel.com/) e fornece um mecanismo de busca sobre o banco de dados de personagens e quadrinhos.
 Permite encontrar personagens e visualizar informações como detalhes e suas respectivas informações como um wiki (sobre) do personagem completo.

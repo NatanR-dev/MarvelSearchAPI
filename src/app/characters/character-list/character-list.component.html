@@ -1,7 +1,7 @@
 <mat-drawer-container>
   <mat-drawer mode="over" position="end">
     <mat-tab-group>
-      <mat-tab label="Detalhes">
+      <mat-tab label="Details">
         <app-character-detail [character]="selectedCharacter"></app-character-detail>
       </mat-tab>
       <mat-tab label="Comics">
@@ -13,7 +13,7 @@
       <mat-progress-bar mode="indeterminate" *ngIf="showProgress"></mat-progress-bar>
       <div class="search">
           <mat-form-field>
-            <input matInput placeholder="Digite, Ex: Winter Soldier..." #searchBox (keyup)="search(searchBox.value)">
+            <input matInput placeholder="Eg: Winter Solder..." #searchBox (keyup)="search(searchBox.value)">
           </mat-form-field>
       </div>
       <mat-grid-list cols="4" rowHeight="250">

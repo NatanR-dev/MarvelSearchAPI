@@ -1,9 +1,9 @@
 {
-  "name": "angular-heroes",
-  "version": "1.2.0",
-  "description": "Angular Heroes",
+  "name": "MarvelSearchAPI",
+  "version": "1.0.0",
+  "description": "MarvelSearchAPI",
   "authors": [
-    "Aristeidis Bampakos"
+    "alien.dev"
   ],
   "scripts": {
     "ng": "ng",

@@ -4,12 +4,12 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'http://gateway.marvel.com/v1/public/',
-  apiKey: 'ed5accb8c7697714ac1dbf1c7584c3c0',
+  apiUrl: 'http://gateway.marvel.com/v1/public/',   // < insert your link API
+  apiKey: 'ed5accb8c7697714ac1dbf1c7584c3c0',       // < insert your API key
   settings: {
-    appErrorPrefix: '[MarvelSearch Error] ',
-    appTitle: 'MarvelSearch',
-    version: '1.0'
+    appErrorPrefix: '[MarvelSearch Error] ',        // app name and Error
+    appTitle: 'MarvelSearch',                       // < insert your app name
+    version: '1.0'                                  // < insert the app version
   }
 };
 

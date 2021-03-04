@@ -1,48 +1,49 @@
 # MarvelSearchAPI
 
-![Simple Google Chart](https://i.ibb.co/h9pnKDx/Marvel-API-minified.gif)
+![MarvelSearchAPI-GIF](https://i.ibb.co/h9pnKDx/Marvel-API-minified.gif)
 
-Aplicação em Angular que interage com a [API da Marvel Comics] (http://developer.marvel.com/) e fornece um mecanismo de busca sobre o banco de dados de personagens e quadrinhos.
-Permite encontrar personagens e visualizar informações como detalhes e suas respectivas informações como quadrinhos e um wiki (sobre) o personagem completo.
-
-
-# Funcionalidades
-- [x] Consumindo API da Marvel
-- [X] Detalhes dos Personagens
-- [X] Wiki dos Personagens
-- [X] Comics dos Personagens
-- [X] Listagem com o Link para as HQ's
-- [X] Engine de busca dos personagem
-- [X] Multi requisições para listagem dos personagens
-- [ ] Login (Criar uma conta para salvar as comics prediletas)
-- [ ] Carrinho (Adicionar Comic Cart e poder comprar com descontos)
+Angular application that interacts with the [Marvel Comics API] (http://developer.marvel.com/) and provides a search engine on the database of characters and comics.
+It allows you to find characters and view information such as details and their respective information such as comics and a wiki (about the character).
 
 
-## Instalação
+# Features
+- [X] Consuming Marvel API
+- [X] Character Details
+- [X] Characters Wiki
+- [X] Character Comics
+- [X] Listing with the link to the HQ's
+- [X] Character Search Engine
 
-Clone este repositório e dê um `npm install` para instalar todas a dependências.
+# Coming Soon
+- [ ] Login (Create an account to save your favorite comics)
+- [ ] Cart (Add Comic Cart and be able to buy with discounts)
 
-## OBS
+
+## Installation
+
+Type `npm install` in the terminal and wait to install all dependencies, 
+and then execute the command `ng serve` to start the application. 
+
+The application will [run on](http://localhost:4200) port
+## Note
  
-A API's estão na pasta `src/environments` `apiKey` 
+The API is in the `src/environments` `apiKey` 
 
 `src/environment.ts`
 ```
 export const environment = {
   ...
   apiEndpoint: '//gateway.marvel.com/v1/public/',
-  apiKey: '<Sua chave public aqui>'
+  apiKey: '<Your public key is here>'
 };
 ```
-você pode cadastrar sua **public** key aqui > [Marvel Developer Portal](http://developer.marvel.com/)
 
-
-Execute o comando `ng serve` para startar a aplicação. Você será redirecionado para http://localhost:4200
-
+You can register your **public key** here > [Marvel Developer Portal](http://developer.marvel.com/)
 
 ## Dependencias
 rxjs, nodejs, express, material design
 
 
-Desafio feito para o processo seletivo da CRMALL
-Tempo de entrega: 20/11 até até o dia 23/11, às 17h00.
+
+## Thank you
+for purchasing our product, if you want more applications like that, [goes to](https://codecanyon.net/user/alien-dev)

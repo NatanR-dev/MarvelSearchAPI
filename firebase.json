@@ -2,7 +2,7 @@
   "hosting": [
     {
       "target": "marvelsearch",
-      "public": "dist/marvelsearch",
+      "public": "dist/marvelsearchapi",
       "ignore": [
         "firebase.json",
         "**/.*",

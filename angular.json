@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-heroes": {
+    "marvelsearchapi": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-heroes",
+            "outputPath": "dist/marvelsearchapi",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,18 +68,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-heroes:build"
+            "browserTarget": "marvelsearchapi:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-heroes:build:production"
+              "browserTarget": "marvelsearchapi:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-heroes:build"
+            "browserTarget": "marvelsearchapi:build"
           }
         },
         "test": {
@@ -116,11 +116,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angular-heroes:serve"
+            "devServerTarget": "marvelsearchapi:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "angular-heroes:serve:production"
+              "devServerTarget": "marvelsearchapi:serve:production"
             }
           }
         },
@@ -131,5 +131,5 @@
       }
     }
   },
-  "defaultProject": "angular-heroes"
+  "defaultProject": "marvelsearchapi"
 }

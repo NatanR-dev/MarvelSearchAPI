@@ -42,8 +42,3 @@ You can register your **public key** here > [Marvel Developer Portal](http://dev
 
 ## Dependencias
 rxjs, nodejs, express, material design
-
-
-
-## Thank you
-for purchasing our product, if you want more applications like that, [goes to](https://codecanyon.net/user/alien-dev)
